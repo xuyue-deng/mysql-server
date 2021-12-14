@@ -1,0 +1,17 @@
+#!/bin/bash
+
+function build_deps
+{
+    echo "Build dependant components..."
+}
+
+function build_master
+{
+    echo "Build mysql master..."
+}
+
+#(1)
+build_deps
+
+#(2)
+build_master
